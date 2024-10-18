@@ -8,6 +8,74 @@
         href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <title>Guiminamflix</title>
+    <style>
+        body {
+            font-family: 'Chakra Petch', sans-serif;
+            background-color: white; /* Fundo branco */
+            color: black; /* Texto preto */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a; /* Preto para o cabeçalho */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+        }
+
+        .chamada {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background-color: #e0f7fa; /* Azul claro para fundo da seção chamada */
+        }
+
+        .chamada-texto h1 {
+            font-size: 3rem;
+            color: #0277bd; /* Azul escuro para o título */
+        }
+
+        .chamada-texto p {
+            font-size: 1.2rem;
+            color: #01579b; /* Azul mais escuro para o subtítulo */
+        }
+
+        .categoria {
+            background-color: #1a1a1a; /* Fundo preto para seção categoria */
+            padding: 40px;
+            color: white;
+        }
+
+        .categoria h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .categoria-videos {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .categoria-videos a {
+            margin: 10px;
+            transition: transform 0.3s;
+        }
+
+        .categoria-videos a:hover {
+            transform: scale(1.1);
+        }
+
+        .categoria-videos img {
+            width: 160px;
+            height: 90px;
+            border: 2px solid #0277bd; /* Borda azul nas miniaturas */
+        }
+    </style>
 </head>
 
 <body>
